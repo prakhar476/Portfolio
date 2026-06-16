@@ -1,0 +1,15 @@
+/* ============================================================
+   3D SPHERE CANVAS
+============================================================ */
+#sphere-canvas {
+  width: min(420px, 90vw);
+  height: min(420px, 90vw);
+  display: block;
+}
+
+@media (max-width: 900px) {
+  #sphere-canvas {
+    width: min(280px, 80vw);
+    height: min(280px, 80vw);
+  }
+}

@@ -1,0 +1,91 @@
+/* ============================================================
+   PROJECTS
+============================================================ */
+.projects-intro {
+  color: var(--c-muted);
+  margin-bottom: 2.5rem;
+  max-width: 520px;
+  font-size: 0.92rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+}
+.project-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.04) 0%, transparent 60%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.project-card:hover::before {
+  opacity: 1;
+}
+
+.project-no {
+  font-family: var(--f-mono);
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgba(0, 212, 255, 0.08);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+.project-no.faded {
+  opacity: 0.4;
+}
+
+.project-title {
+  font-family: var(--f-mono);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+  color: var(--c-text);
+}
+.project-title.muted-title {
+  color: var(--c-muted);
+}
+
+.project-desc {
+  font-size: 0.85rem;
+  color: var(--c-muted);
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+}
+.project-link {
+  font-family: var(--f-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  color: var(--c-cyan);
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: opacity 0.2s;
+}
+.project-link:hover {
+  opacity: 0.7;
+}
+
+.coming-soon {
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.04) 0%, var(--c-surface) 100%);
+  border-style: dashed;
+}

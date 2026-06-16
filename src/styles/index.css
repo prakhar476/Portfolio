@@ -1,0 +1,8 @@
+/* ============================================================
+   GLOBAL STYLESHEET ENTRY POINT
+   Import order matters: tokens -> base -> shared layout.
+   Each component also imports its own scoped CSS file.
+============================================================ */
+@import './tokens.css';
+@import './base.css';
+@import './layout.css';
