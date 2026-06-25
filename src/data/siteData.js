@@ -14,11 +14,11 @@ export const profile = {
   initials: 'PS',
   roles: ['Software Engineer', 'Full-Stack Developer', 'Cloud Engineer', 'AI Enthusiast', 'MCA Student'],
   tagline: 'MCA student with a passion for building full-stack web applications, cloud-native infrastructure, and intelligent systems. Currently exploring the intersection of software engineering and AI.',
-  email: 'prakhar@example.com',
-  github: 'https://github.com/',
-  githubLabel: 'github.com/prakharsingh',
-  linkedin: 'https://linkedin.com/',
-  linkedinLabel: 'linkedin.com/in/prakharsingh',
+  email: 'prakharsingh.developer@gmail.com',
+  github: 'https://github.com/prakhar476',
+  githubLabel: 'github.com/prakhar476',
+  linkedin: 'https://linkedin.com/in/prakhar476',
+  linkedinLabel: 'linkedin.com/in/prakhar476',
   location: 'India 🇮🇳',
   status: 'MCA Student · Open To Work',
 }
@@ -71,9 +71,9 @@ export const skillCategories = [
     skills: [
       { name: 'Machine Learning', value: 65 },
       { name: 'Deep Learning Basics', value: 55 },
-      { name: 'Python for AI (NumPy, Pandas)', value: 72 },
+      { name: 'Python for AI' , value: 55 },
     ],
-    pills: ['AI / ML', 'NumPy', 'Pandas'],
+    pills: ['AI / ML',],
     pillVariant: 'violet',
   },
 ]
@@ -94,12 +94,12 @@ export const projects = [
   },
   {
     no: '02',
-    title: 'Cloud Deploy Dashboard',
-    description: 'AWS infrastructure monitoring dashboard built with React. Terraform scripts for IaC provisioning. Visualizes EC2, S3, and Lambda metrics in real time.',
+    title: 'Railway Reservation System',
+    description: 'A railway Reservation System built with Python and Django. Focused on real time ticketing and Advance Booking Methods .',
     tags: [
-      { label: 'AWS', variant: 'violet' },
-      { label: 'Terraform', variant: 'violet' },
-      { label: 'React', variant: 'cyan' },
+      { label: 'Python', variant: 'violet' },
+      { label: 'Django', variant: 'violet' },
+      { label: 'SQLLite3', variant: 'cyan' },
       { label: 'JavaScript', variant: 'cyan' },
     ],
     githubUrl: '#',
@@ -107,13 +107,13 @@ export const projects = [
   },
   {
     no: '03',
-    title: 'Smart Portfolio Analyzer',
-    description: 'Python + Django web app that scrapes and analyzes GitHub profiles, generating skill reports and contribution heatmaps using data visualization libraries.',
+    title: 'Real Time Humidity App',
+    description: 'Python + Django web app that scrapes and analyzes Humidity in an Controlled Enviroment.',
     tags: [
-      { label: 'Python', variant: 'cyan' },
-      { label: 'Django', variant: 'cyan' },
       { label: 'HTML/CSS', variant: 'cyan' },
-      { label: 'Data Viz', variant: 'violet' },
+      { label: 'IOT', variant: 'cyan' },
+      { label: 'SQL', variant: 'cyan' },
+      { label: 'JavaScript', variant: 'violet' },
     ],
     githubUrl: '#',
     liveUrl: '#',
@@ -122,33 +122,33 @@ export const projects = [
 
 export const educationTimeline = [
   {
-    date: '2023 — Present',
+    date: '2025 — 2027',
     title: 'Master of Computer Applications (MCA)',
-    subtitle: 'University · India',
+    subtitle: 'BBD University · Lucknow · India',
     description: 'Pursuing specialization in software engineering, cloud computing, and artificial intelligence. Building projects that bridge academic theory and industry practice.',
     dotColor: 'cyan',
   },
   {
-    date: '2020 — 2023',
+    date: '2022 — 2025',
     title: 'Bachelor of Computer Applications (BCA)',
-    subtitle: 'University · India',
+    subtitle: 'Lucknow University · Lucknow · India',
     description: 'Core computer science foundations — data structures, OOP, databases, and web development. First exposure to Python, HTML/CSS, and JavaScript.',
     dotColor: 'violet',
   },
   {
-    date: '2020',
+    date: '2019 — 2020',
     title: 'Higher Secondary Education',
-    subtitle: 'Class XII · Science Stream',
+    subtitle: 'Kendriya Vidyalaya · Class XII · Science Stream',
     description: 'Mathematics and science background that built the analytical thinking foundation for computer science.',
     dotColor: 'muted',
   },
 ]
 
 export const certifications = [
-  { icon: '☁️', title: 'AWS Cloud Practitioner', status: 'In Progress — AWS Training' },
-  { icon: '🧠', title: 'Machine Learning Fundamentals', status: 'Completed — Online Course' },
-  { icon: '⚛️', title: 'React Developer Course', status: 'Completed — Self Study' },
-  { icon: '🏗️', title: 'Terraform & IaC', status: 'In Progress — HashiCorp Learn' },
+  // { icon: '☁️', title: 'AWS Cloud Practitioner', status: 'In Progress — AWS Training' },
+  { icon: '🧠', title: 'Artificial Intelligence', status: 'Completed — Online Course' },
+  { icon: '☁️', title: 'Data Science', status: 'Completed — Online Course' },
+  // { icon: '🏗️', title: 'Terraform & IaC', status: 'In Progress — HashiCorp Learn' },
 ]
 
 export const interests = ['Full-Stack Dev', 'Cloud Engineering', 'AI / ML', 'DevOps', 'Open Source', 'System Design']
