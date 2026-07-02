@@ -95,7 +95,7 @@ export const projects = [
   {
     no: '02',
     title: 'Railway Reservation System',
-    description: 'A railway Reservation System built with Python and Django. Focused on real time ticketing and Advance Booking Methods .',
+    description: 'A railway Reservation System built with ReactJs, NodeJs and MongoDB . Focused on real time ticketing and Advance Booking Methods .',
     tags: [
       { label: 'Python', variant: 'violet' },
       { label: 'Django', variant: 'violet' },
@@ -115,8 +115,8 @@ export const projects = [
       { label: 'SQL', variant: 'cyan' },
       { label: 'JavaScript', variant: 'violet' },
     ],
-    githubUrl: '#',
-    liveUrl: '#',
+    // githubUrl: '#',
+    // liveUrl: '#',
   },
 ]
 
